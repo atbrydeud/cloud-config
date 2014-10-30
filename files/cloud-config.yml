@@ -2,7 +2,7 @@
 
 coreos:
     units:
-      - name: opendaylight-dist.service
+      - name: NOS-update-client.service
         enable: true
         runtime: true
         command: start
