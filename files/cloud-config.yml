@@ -6,3 +6,4 @@ coreos:
         enable: true
         runtime: true
         command: start
+hostname: inocybe-spore
