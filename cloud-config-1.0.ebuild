@@ -29,4 +29,6 @@ src_install() {
 	doins "${FILESDIR}"/cloud-config.yml
 	insinto /usr/share/coreos/
         doins "${FILESDIR}"/update.conf
+        insinto /usr/share/update-engine/
+        doins "${FILESDIR}"/update-payload-key.pub.pem
 }
